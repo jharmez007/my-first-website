@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Document</title>
+  <style>
+    .about-container {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      border-radius: 10px;
+    }
+
+    .bio {
+      max-width: 600px;
+    }
+
+    @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .profile-pic {
+      margin-bottom: 10px;
+    }
+  }
+
+  </style>
+  </head>
+  <body>
+    <div class="about-container">
+      <img src="./img/WhatsApp Image 2025-04-04 at 21.35.29.jpeg" alt="My photo" class="profile-pic">
+      <div class="bio">
+        <h1>Hello, I'm Nnamdi</h1>
+        <p>I’m learning frontend web development...</p>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
